@@ -15,11 +15,48 @@
 }
 
 
+a {
+	color:white;
+	text-decoration: none;
 
+}
 
+a h2{
+	color:white;
+	text-decoration: none;
+
+}
+
+a h2:hover {
+	filter: blur(1px);;
+	text-decoration: none;
+
+}
+
+a:hover{
+	filter: blur(1px);;
+	
+}
+
+table,th,td{
+	padding-left: 5px;
+
+}
+
+table.row, th{
+	padding-top: 2px;
+}
 
 
 
 		
 
 	
+a.row{
+	color:white;
+	text-decoration: none;
+}
+
+a.row:hover{
+	filter: blur(1px);;
+}
