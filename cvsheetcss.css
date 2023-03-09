@@ -28,13 +28,13 @@ a h2{
 }
 
 a h2:hover {
-	filter: blur(1px);;
+	opacity:80%;
 	text-decoration: none;
 
 }
 
 a:hover{
-	filter: blur(1px);;
+	opacity:80%;
 	
 }
 
@@ -58,5 +58,5 @@ a.row{
 }
 
 a.row:hover{
-	filter: blur(1px);;
+	opacity:80%;
 }
