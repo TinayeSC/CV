@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html> 
   <head>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href = "cvsheetcss.css" rel = "stylesheet" type = "text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href = "cvsheetcss.css" rel = "stylesheet" type = "text/css">
+    
     <title> Samuel's CV</title>
   </head>
 
@@ -27,8 +30,8 @@
       </div>
 </div>
     
-        
-<div id = "education" class = 'row'>
+       
+<div id = "Education" class = 'row'>
   <div class ="col-md-11">
         <h2 >Education</h2>
         <table style =" font-size: large;"> 
@@ -38,20 +41,20 @@
             <th>Outcome</th>
           </tr>
           <tr>
-            <td>Harare International School</td>
+            <td role="button"  style = "color: black;" type="button" class="btn btn-info" aria-controls="HIS" data-toggle= "collapse" href="#HIS" aria-expanded="true">Harare International School</td>
             <td>International Baccalaureate</td> 
             <td>Diploma, CAS,TOK and EE</td>
           </tr>
           <tr>
-            <td>University of Bristol</td>
+            <td><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#briz">University of Bristol</button></td>
             <td> International Foundation Programme<br>
               Undergraduate Aerospace Engineering</td>
             <td>Passed Foundation Year <br>
             & Extenuating Circumstances </td>
           </tr>
           <tr>
-            <td>University of Edinburgh (Online)</td>
-            <td>HyperionDev Software Engineering Bootcamp</td>
+            <td><a href ="https://www.hyperiondev.com/portfolio/105948/" target = "_blank" type="button" class="btn btn-info" role="button" > University of Edinburgh</a></td>
+            <td><a href = "https://www.hyperiondev.com" target = "_blank" style = "color: white; text-decoration:none;"> HyperionDev Online Software Engineering Bootcamp</a></td>
             <td>Completion Certificate</td>
           </tr>
         </table>
@@ -62,7 +65,7 @@
 e.g for HIS add ISSEA photos and other things like projects maybe. For Bristol add Dog Soc
 For Bootcamp add one of your projects or just say this website is an example of blah-->
 
-
+<div id = "HIS" class = "collapse">
 <div class = "row" >
   <div class = "col-md-9">
     <h4 >Harare International School</h4>
@@ -81,10 +84,10 @@ For Bootcamp add one of your projects or just say this website is an example of 
           These events taught me how to be a part of, and how to lead a team in both triumph and failure. 
         </p>
   </div>
-</div>
+  </div>
         
   
-<div class = "row">
+  <div class = "row">
   <div class = "col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img src = "bball.JPG" class="w-100 shadow-1-strong rounded mb-4">
 
@@ -105,9 +108,11 @@ For Bootcamp add one of your projects or just say this website is an example of 
   <img src = "track2.JPG" class="w-100 shadow-1-strong rounded mb-4">
   </div>
     
+  </div>
 </div>
 
-<div class = "row">
+<div class = "collapse" id = "briz">
+  <div class = "row">
   <div class = "col-md-10">
   <h4>University of Bristol</h4>
   <p>At Bristol I studied a 1 year Foundation Programme in STEM. I passed all modules with results in the top half of my cohort.
@@ -120,10 +125,11 @@ For Bootcamp add one of your projects or just say this website is an example of 
 
     At the University of Bristol, I was heavily involved with the Dog Society which I will disucss later. 
   </p>
-</div>  
-</div>
+  </div>  
+  </div>
 
-<div class = "row">
+
+  <div class = "row">
   <div class = "col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img src = "dogsoc.JPG" class="w-100 shadow-1-strong rounded mb-4">
 
@@ -147,6 +153,7 @@ For Bootcamp add one of your projects or just say this website is an example of 
     
     </div>
     
+  </div>
 </div>
     
    
@@ -154,7 +161,7 @@ For Bootcamp add one of your projects or just say this website is an example of 
        
 </div>
 
- <div id = "work" class = "row">
+<div id = "work" class = "row">
         <h2>Work Experience</h2>
         <table>
           <tr>
@@ -179,9 +186,7 @@ For Bootcamp add one of your projects or just say this website is an example of 
         </tr>
 
         </table>
-        <div class = "col-md-4">
-            <p>RAF, ZimTri, UoB DogSoc</p>
-        </div>
+    
 
 </div>
 
@@ -251,9 +256,7 @@ For Bootcamp add one of your projects or just say this website is an example of 
 
 
 
-
-
-        
+   
 </body>
 
 </html>
