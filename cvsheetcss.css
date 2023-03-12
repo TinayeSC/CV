@@ -7,11 +7,8 @@
 	color: white;
 	font-family: Times New Roman;
 	background-color: rgb(0, 0, 0);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 1000px 800px;
-	background-position: center;
 	padding: 16px;
+	padding-bottom: 20px;
 	display:flex;
 	flex-wrap: wrap;
 	font-size: large;
@@ -55,25 +52,17 @@ table.row, th{
 		
 
 	
-a.row{
+.row a{
 	color:white;
 	text-decoration: none;
 }
 
-a.row:hover{
-	opacity:80%;
-}
 
 
-.col-md-6{
-	flex: 50%;
-  	padding: 0 4px;
-}
 
-.col-md-6 img{
-	margin-top: 8px;
-  	vertical-align: middle;
-}
+
+
+
 
 .row th,tr,td{
 	padding: 20px;
@@ -81,5 +70,14 @@ a.row:hover{
 
 }
 
+.btn-warning{
+	background-color: black;
+	color: white;
+	border: none;
+}
 
-
+.btn-warning:hover{
+	background-color: white;
+	color:black;
+	border:none;
+}
