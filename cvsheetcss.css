@@ -1,13 +1,37 @@
 
 
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color:  rgb(30, 30, 30);
+	font-family: Times New Roman;
+	overflow: hidden;
+	size: 200px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 18px 18px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	color: black;
+	background-color:white;
+  }
 
+  
 
 
 
 .row{
 	color: white;
 	font-family: Times New Roman;
-	background-color: rgb(0, 0, 0);
+	background-color: black;
 	padding: 16px;
 	padding-bottom: 20px;
 	display:flex;
@@ -15,6 +39,11 @@
 	font-size: large;
 }
 
+body .row .col-md-4 img#ofMe{
+	border-radius: 50%;
+	-webkit-filter: grayscale(50%);
+	filter: grayscale(50%);
+}
 
 a {
 	color:white;
@@ -82,3 +111,4 @@ table.row, th{
 	color:black;
 	border:none;
 }
+
